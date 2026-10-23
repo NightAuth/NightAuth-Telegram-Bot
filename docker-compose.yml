@@ -1,0 +1,7 @@
+services:
+  nightauth-telegram-bot:
+    build: .
+    container_name: nightauth-telegram-bot
+    restart: unless-stopped
+    env_file:
+      - .env

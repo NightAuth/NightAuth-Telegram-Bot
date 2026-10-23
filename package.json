@@ -1,0 +1,36 @@
+{
+  "name": "@nightauth/telegram-bot",
+  "version": "1.0.0",
+  "description": "Official NightAuth Self-Hosted Telegram Bot with Multi-App Support and Modern UI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "nightauth",
+    "telegram-bot",
+    "licensing",
+    "authentication",
+    "security",
+    "self-hosted",
+    "multi-app"
+  ],
+  "author": "NightAuth",
+  "license": "Elastic-2.0",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@11.22.0",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
